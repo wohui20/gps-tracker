@@ -3,9 +3,9 @@ const crypto = require("crypto");
 
 const PORT = process.env.PORT || 3000;
 const ONENET_HOST = "iot-api.heclouds.com";
-const PRODUCT_ID = "5B9YF70AHU";
+const PRODUCT_ID = "pl9R30J6Bj";
 const DEVICE_NAME = "862323084544140";
-const ACCESS_KEY = "Wfenu0GzYUv/PXvHv3Fdf98TT5fn4cXPLVP787NbSXM=";
+const ACCESS_KEY = "9yk9SxMHdW/zW6/z0W0HxZOrq3OxY3O3C2t9p/+b9/k=";
 
 function generateToken() {
   var et = Math.floor(Date.now() / 1000) + 3600;
